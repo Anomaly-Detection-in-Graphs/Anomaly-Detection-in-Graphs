@@ -1,0 +1,59 @@
+Start Threshold: 0.0025, End Threshold: 0.00125, Decrease Rate:  0.001 
+Best_Train: 80.383%, Best_Valid: 79.312% Best_Test: 80.337% 
+Start Threshold: 0.002, End Threshold: 0.001, Decrease Rate:  0.001 
+Best_Train: 79.863%, Best_Valid: 78.785% Best_Test: 79.962% 
+Start Threshold: 0.0015, End Threshold: 0.00075, Decrease Rate:  0.001 
+Best_Train: 79.908%, Best_Valid: 78.989% Best_Test: 80.048% 
+Start Threshold: 0.001, End Threshold: 0.0005, Decrease Rate:  0.001 
+Best_Train: 79.848%, Best_Valid: 78.948% Best_Test: 79.905% 
+Start Threshold: 0.0005, End Threshold: 0.00025, Decrease Rate:  0.001 
+Best_Train: 80.592%, Best_Valid: 79.507% Best_Test: 80.504% 
+Start Threshold: 0.0025, End Threshold: 0.00125, Decrease Rate:  0.001 
+Best_Train: 80.040%, Best_Valid: 78.913% Best_Test: 80.074% 
+Start Threshold: 0.002, End Threshold: 0.001, Decrease Rate:  0.001 
+Best_Train: 80.120%, Best_Valid: 79.116% Best_Test: 80.227% 
+Start Threshold: 0.0015, End Threshold: 0.00075, Decrease Rate:  0.001 
+Best_Train: 80.264%, Best_Valid: 79.093% Best_Test: 80.327% 
+Start Threshold: 0.001, End Threshold: 0.0005, Decrease Rate:  0.001 
+Best_Train: 80.415%, Best_Valid: 79.339% Best_Test: 80.355% 
+Start Threshold: 0.0005, End Threshold: 0.00025, Decrease Rate:  0.001 
+Best_Train: 79.504%, Best_Valid: 78.531% Best_Test: 79.673% 
+Start Threshold: 0.0025, End Threshold: 0.00125, Decrease Rate:  0.001 
+Best_Train: 80.437%, Best_Valid: 79.329% Best_Test: 80.473% 
+Start Threshold: 0.002, End Threshold: 0.001, Decrease Rate:  0.001 
+Best_Train: 80.262%, Best_Valid: 79.169% Best_Test: 80.327% 
+Start Threshold: 0.0025, End Threshold: 0.00125, Decrease Rate:  0.001 
+Best_Train: 80.180%, Best_Valid: 78.772% Best_Test: 79.985% 
+
+Start Threshold: 0.0025, End Threshold: 0.00125, Decrease Rate:  0.001 
+Best_Train: 83.351%, Best_Valid: 81.101% Best_Test: 82.284% 
+Start Threshold: 0.002, End Threshold: 0.001, Decrease Rate:  0.001 
+Best_Train: 83.476%, Best_Valid: 81.132% Best_Test: 82.403% 
+Start Threshold: 0.0015, End Threshold: 0.00075, Decrease Rate:  0.001 
+Best_Train: 83.458%, Best_Valid: 81.127% Best_Test: 82.357% 
+Start Threshold: 0.001, End Threshold: 0.0005, Decrease Rate:  0.001 
+Best_Train: 82.935%, Best_Valid: 80.949% Best_Test: 82.113% 
+Start Threshold: 0.0005, End Threshold: 0.00025, Decrease Rate:  0.001 
+Best_Train: 83.162%, Best_Valid: 80.982% Best_Test: 82.229% 
+Start Threshold: 0.0025, End Threshold: 0.001, Decrease Rate:  0.001 
+Best_Train: 83.349%, Best_Valid: 81.133% Best_Test: 82.323% 
+Start Threshold: 0.0025, End Threshold: 0.00125, Decrease Rate:  0.002 
+Best_Train: 82.885%, Best_Valid: 80.954% Best_Test: 82.065% 
+Start Threshold: 0.002, End Threshold: 0.0008, Decrease Rate:  0.001 
+Best_Train: 83.009%, Best_Valid: 81.040% Best_Test: 82.093% 
+Start Threshold: 0.002, End Threshold: 0.001, Decrease Rate:  0.002 
+Best_Train: 83.267%, Best_Valid: 81.095% Best_Test: 82.336% 
+Start Threshold: 0.0015, End Threshold: 0.0006000000000000001, Decrease Rate:  0.001 
+Best_Train: 83.244%, Best_Valid: 81.025% Best_Test: 82.160% 
+Start Threshold: 0.0015, End Threshold: 0.00075, Decrease Rate:  0.002 
+Best_Train: 82.894%, Best_Valid: 80.939% Best_Test: 81.928% 
+Start Threshold: 0.001, End Threshold: 0.0005, Decrease Rate:  0.002 
+Best_Train: 83.313%, Best_Valid: 80.971% Best_Test: 82.048% 
+Start Threshold: 0.001, End Threshold: 0.0004, Decrease Rate:  0.001 
+Best_Train: 83.392%, Best_Valid: 81.018% Best_Test: 82.090% 
+Start Threshold: 0.0005, End Threshold: 0.00025, Decrease Rate:  0.001 
+Best_Train: 82.626%, Best_Valid: 80.951% Best_Test: 82.116% 
+Start Threshold: 0.0005, End Threshold: 0.00025, Decrease Rate:  0.002 
+Best_Train: 83.631%, Best_Valid: 80.978% Best_Test: 82.351% 
+Start Threshold: 0.0, End Threshold: 0.0, Decrease Rate:  1 
+Best_Train: 82.471%, Best_Valid: 80.705% Best_Test: 81.902% 

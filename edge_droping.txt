@@ -1,0 +1,59 @@
+Edge Drop Rate 1: 0.0, Edge Drop Rate 2: 0.3 
+Best_Train: 83.084%, Best_Valid: 80.923% Best_Test: 82.065% 
+Edge Drop Rate 1: 0.02, Edge Drop Rate 2: 0.3 
+Best_Train: 83.041%, Best_Valid: 80.806% Best_Test: 81.941% 
+Edge Drop Rate 1: 0.05, Edge Drop Rate 2: 0.3 
+Best_Train: 83.724%, Best_Valid: 80.933% Best_Test: 81.959% 
+Edge Drop Rate 1: 0.1, Edge Drop Rate 2: 0.3 
+Best_Train: 83.442%, Best_Valid: 80.899% Best_Test: 82.260% 
+Edge Drop Rate 1: 0.15, Edge Drop Rate 2: 0.3 
+Best_Train: 83.126%, Best_Valid: 80.979% Best_Test: 82.110% 
+Edge Drop Rate 1: 0.05, Edge Drop Rate 2: 0.2 
+Best_Train: 82.758%, Best_Valid: 80.716% Best_Test: 82.036% 
+Edge Drop Rate 1: 0.05, Edge Drop Rate 2: 0.25 
+Best_Train: 83.155%, Best_Valid: 80.833% Best_Test: 82.192% 
+Edge Drop Rate 1: 0.05, Edge Drop Rate 2: 0.3 
+Best_Train: 83.345%, Best_Valid: 80.944% Best_Test: 82.141% 
+Edge Drop Rate 1: 0.05, Edge Drop Rate 2: 0.35 
+Best_Train: 83.275%, Best_Valid: 80.978% Best_Test: 82.099% 
+Edge Drop Rate 1: 0.05, Edge Drop Rate 2: 0.4 
+Best_Train: 83.344%, Best_Valid: 80.900% Best_Test: 81.996% 
+Edge Drop Rate 1: 0.05, Edge Drop Rate 2: 0.45 
+Best_Train: 82.910%, Best_Valid: 80.781% Best_Test: 81.982% 
+Edge Drop Rate 1: 0.1, Edge Drop Rate 2: 0.4 
+Best_Train: 83.252%, Best_Valid: 80.850% Best_Test: 82.150% 
+Edge Drop Rate 1: 0.0, Edge Drop Rate 2: 0.4 
+Best_Train: 82.982%, Best_Valid: 80.889% Best_Test: 81.904% 
+Edge Drop Rate 1: 0.02, Edge Drop Rate 2: 0.4 
+Best_Train: 82.967%, Best_Valid: 80.915% Best_Test: 82.037% 
+Edge Drop Rate 1: 0.0, Edge Drop Rate 2: 0.4 
+Best_Train: 83.018%, Best_Valid: 80.886% Best_Test: 81.921% 
+Edge Drop Rate 1: 0.02, Edge Drop Rate 2: 0.4 
+Best_Train: 82.985%, Best_Valid: 80.919% Best_Test: 82.030% 
+Edge Drop Rate 1: 0.12, Edge Drop Rate 2: 0.4 
+Best_Train: 82.862%, Best_Valid: 80.801% Best_Test: 81.990% 
+Edge Drop Rate 1: 0.15, Edge Drop Rate 2: 0.4 
+Best_Train: 83.289%, Best_Valid: 81.016% Best_Test: 82.206% 
+Edge Drop Rate 1: 0.17, Edge Drop Rate 2: 0.4 
+Best_Train: 83.139%, Best_Valid: 80.949% Best_Test: 82.062% 
+Edge Drop Rate 1: 0.2, Edge Drop Rate 2: 0.4 
+Best_Train: 83.456%, Best_Valid: 81.034% Best_Test: 82.201% 
+Edge Drop Rate 1: 0.1, Edge Drop Rate 2: 0.42 
+Best_Train: 83.284%, Best_Valid: 80.958% Best_Test: 82.183% 
+Edge Drop Rate 1: 0.225, Edge Drop Rate 2: 0.4 
+Best_Train: 83.333%, Best_Valid: 81.013% Best_Test: 82.189% 
+Edge Drop Rate 1: 0.1, Edge Drop Rate 2: 0.45 
+Best_Train: 83.153%, Best_Valid: 80.933% Best_Test: 82.124% 
+Edge Drop Rate 1: 0.25, Edge Drop Rate 2: 0.4 
+Best_Train: 83.360%, Best_Valid: 81.007% Best_Test: 82.125% 
+Edge Drop Rate 1: 0.1, Edge Drop Rate 2: 0.4 
+Best_Train: 83.235%, Best_Valid: 80.847% Best_Test: 82.052% 
+Edge Drop Rate 1: 0.275, Edge Drop Rate 2: 0.4 
+Best_Train: 82.922%, Best_Valid: 80.942% Best_Test: 82.215% 
+Edge Drop Rate 1: 0.1, Edge Drop Rate 2: 0.45 
+Best_Train: 83.051%, Best_Valid: 80.942% Best_Test: 82.113% 
+Edge Drop Rate 1: 0.1, Edge Drop Rate 2: 0.47 
+Best_Train: 83.106%, Best_Valid: 80.943% Best_Test: 82.035% 
+Edge Drop Rate 1: 0.1, Edge Drop Rate 2: 0.5 
+Best_Train: 83.065%, Best_Valid: 80.942% Best_Test: 82.311% 
+

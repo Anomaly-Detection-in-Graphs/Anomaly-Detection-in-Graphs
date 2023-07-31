@@ -1,0 +1,41 @@
+All 17 Shuffling Edge Drop Rate 1: 0.0, Edge Drop Rate 2: 0.0 
+Best_Train: 82.537%, Best_Valid: 79.754% Best_Test: 81.143% 
+First 12 Shuffling Edge Drop Rate 1: 0.0, Edge Drop Rate 2: 0.0 
+Best_Train: 82.579%, Best_Valid: 80.047% Best_Test: 81.303% 
+
+Edge Drop Rate 1: 0.0, Edge Drop Rate 2: 0.3 
+Best_Train: 83.170%, Best_Valid: 80.488% Best_Test: 81.630% 
+Edge Drop Rate 1: 0.02, Edge Drop Rate 2: 0.3 
+Best_Train: 83.068%, Best_Valid: 80.488% Best_Test: 81.928% 
+Edge Drop Rate 1: 0.05, Edge Drop Rate 2: 0.3 
+Best_Train: 83.494%, Best_Valid: 80.556% Best_Test: 81.752% 
+Edge Drop Rate 1: 0.1, Edge Drop Rate 2: 0.3 
+Best_Train: 83.604%, Best_Valid: 80.657% Best_Test: 81.822% 
+Edge Drop Rate 1: 0.15, Edge Drop Rate 2: 0.3 
+Best_Train: 83.045%, Best_Valid: 80.581% Best_Test: 81.903% 
+Edge Drop Rate 1: 0.05, Edge Drop Rate 2: 0.2 
+Best_Train: 83.351%, Best_Valid: 80.487% Best_Test: 81.868% 
+Edge Drop Rate 1: 0.05, Edge Drop Rate 2: 0.25 
+Best_Train: 83.219%, Best_Valid: 80.408% Best_Test: 81.859% 
+Edge Drop Rate 1: 0.05, Edge Drop Rate 2: 0.3 
+Best_Train: 83.089%, Best_Valid: 80.411% Best_Test: 81.642% 
+Edge Drop Rate 1: 0.05, Edge Drop Rate 2: 0.35 
+Best_Train: 83.534%, Best_Valid: 80.655% Best_Test: 81.895% 
+Edge Drop Rate 1: 0.05, Edge Drop Rate 2: 0.4 
+Best_Train: 83.264%, Best_Valid: 80.683% Best_Test: 81.814% 
+Edge Drop Rate 1: 0.05, Edge Drop Rate 2: 0.45 
+Best_Train: 83.124%, Best_Valid: 80.578% Best_Test: 81.928% 
+Edge Drop Rate 1: 0.1, Edge Drop Rate 2: 0.42 
+Best_Train: 83.171%, Best_Valid: 80.759% Best_Test: 81.960% 
+Edge Drop Rate 1: 0.1, Edge Drop Rate 2: 0.45 
+Best_Train: 83.437%, Best_Valid: 80.771% Best_Test: 82.019% 
+Edge Drop Rate 1: 0.1, Edge Drop Rate 2: 0.4 
+Best_Train: 82.777%, Best_Valid: 80.566% Best_Test: 81.826% 
+Edge Drop Rate 1: 0.1, Edge Drop Rate 2: 0.45 
+Best_Train: 83.041%, Best_Valid: 80.716% Best_Test: 81.717% 
+Edge Drop Rate 1: 0.1, Edge Drop Rate 2: 0.47 
+Best_Train: 83.600%, Best_Valid: 80.710% Best_Test: 81.799% 
+Edge Drop Rate 1: 0.1, Edge Drop Rate 2: 0.5 
+Best_Train: 82.968%, Best_Valid: 80.707% Best_Test: 81.693% 
+Edge Drop Rate 1: 0.1, Edge Drop Rate 2: 0.4 
+Best_Train: 83.467%, Best_Valid: 80.604% Best_Test: 81.917% 

@@ -1,0 +1,40 @@
+Node Drop Rate 1: 0.0, Node Drop Rate 2: 0.25 
+Best_Train: 83.257%, Best_Valid: 81.133% Best_Test: 82.160% 
+Node Drop Rate 1: 0.01, Node Drop Rate 2: 0.25 
+Best_Train: 83.880%, Best_Valid: 81.109% Best_Test: 82.215% 
+Node Drop Rate 1: 0.02, Node Drop Rate 2: 0.25 
+Best_Train: 82.989%, Best_Valid: 81.094% Best_Test: 82.247% 
+Node Drop Rate 1: 0.03, Node Drop Rate 2: 0.25 
+Best_Train: 83.222%, Best_Valid: 80.999% Best_Test: 82.200% 
+Node Drop Rate 1: 0.01, Node Drop Rate 2: 0.225 
+Best_Train: 83.418%, Best_Valid: 81.107% Best_Test: 82.309% 
+Node Drop Rate 1: 0.01, Node Drop Rate 2: 0.2 
+Best_Train: 83.245%, Best_Valid: 80.975% Best_Test: 82.197% 
+Node Drop Rate 1: 0.01, Node Drop Rate 2: 0.175 
+Best_Train: 83.154%, Best_Valid: 81.030% Best_Test: 82.197% 
+Node Drop Rate 1: 0.01, Node Drop Rate 2: 0.15 
+Best_Train: 82.878%, Best_Valid: 80.883% Best_Test: 81.956% 
+Node Drop Rate 1: 0.01, Node Drop Rate 2: 0.125 
+Best_Train: 83.334%, Best_Valid: 80.943% Best_Test: 82.029% 
+Node Drop Rate 1: 0.01, Node Drop Rate 2: 0.1 
+Best_Train: 83.093%, Best_Valid: 80.807% Best_Test: 81.887% 
+Node Drop Rate 1: 0.0, Node Drop Rate 2: 0.225 
+Best_Train: 82.876%, Best_Valid: 80.956% Best_Test: 82.068% 
+Node Drop Rate 1: 0.01, Node Drop Rate 2: 0.225 
+Best_Train: 83.503%, Best_Valid: 81.059% Best_Test: 82.240% 
+Node Drop Rate 1: 0.02, Node Drop Rate 2: 0.225 
+Best_Train: 83.141%, Best_Valid: 80.958% Best_Test: 82.174% 
+Node Drop Rate 1: 0.03, Node Drop Rate 2: 0.225 
+Best_Train: 82.848%, Best_Valid: 80.977% Best_Test: 82.111% 
+Node Drop Rate 1: 0.01, Node Drop Rate 2: 0.225 
+Best_Train: 83.218%, Best_Valid: 81.122% Best_Test: 82.293% 
+Node Drop Rate 1: 0.05, Node Drop Rate 2: 0.2 
+Best_Train: 83.007%, Best_Valid: 80.900% Best_Test: 82.023% 
+Node Drop Rate 1: 0.05, Node Drop Rate 2: 0.175 
+Best_Train: 83.336%, Best_Valid: 81.085% Best_Test: 81.927% 
+Node Drop Rate 1: 0.05, Node Drop Rate 2: 0.15 
+Best_Train: 83.025%, Best_Valid: 81.019% Best_Test: 82.172% 
+Node Drop Rate 1: 0.05, Node Drop Rate 2: 0.125 
+Best_Train: 83.329%, Best_Valid: 81.017% Best_Test: 82.123% 
+Node Drop Rate 1: 0.05, Node Drop Rate 2: 0.1 
+Best_Train: 83.384%, Best_Valid: 80.942% Best_Test: 81.992% 

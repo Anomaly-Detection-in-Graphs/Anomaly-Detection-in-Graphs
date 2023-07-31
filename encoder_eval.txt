@@ -1,0 +1,59 @@
+Edge Drop Rate 1: SAGEConv 
+Best_Train: 83.469%, Best_Valid: 80.447% Best_Test: 81.706% 
+Edge Drop Rate 1: GraphConv 
+Best_Train: 84.092%, Best_Valid: 80.020% Best_Test: 81.593% 
+Edge Drop Rate 1: ResGatedGraphConv 
+Best_Train: 84.736%, Best_Valid: 80.454% Best_Test: 81.699% 
+Edge Drop Rate 1: TransformerConv 
+Best_Train: 82.529%, Best_Valid: 80.488% Best_Test: 81.665% 
+Edge Drop Rate 1: TAGConv 
+Best_Train: 83.646%, Best_Valid: 80.394% Best_Test: 81.685% 
+Edge Drop Rate 1: ARMAConv 
+Best_Train: 83.724%, Best_Valid: 80.503% Best_Test: 81.501% 
+Edge Drop Rate 1: SGConv 
+Best_Train: 80.918%, Best_Valid: 77.096% Best_Test: 78.772% 
+Edge Drop Rate 1: GENConv 
+Best_Train: 82.494%, Best_Valid: 80.819% Best_Test: 81.968% 
+Edge Drop Rate 1: ClusterGCNConv 
+Best_Train: 82.777%, Best_Valid: 80.452% Best_Test: 81.734% 
+Edge Drop Rate 1: SuperGATConv 
+Best_Train: 80.211%, Best_Valid: 77.726% Best_Test: 77.913% 
+Edge Drop Rate 1: GeneralConv 
+Best_Train: 82.986%, Best_Valid: 80.449% Best_Test: 81.774% 
+Edge Drop Rate 1: FiLMConv 
+Best_Train: 50.000%, Best_Valid: 50.000% Best_Test: 50.000% 
+Edge Drop Rate 1: GATConv 
+Best_Train: 81.896%, Best_Valid: 78.549% Best_Test: 79.280% 
+Edge Drop Rate 1: GATv2Conv 
+Best_Train: 80.157%, Best_Valid: 78.046% Best_Test: 78.928% 
+
+The Used Encoder: SAGEConv 
+Best_Train: 83.045%, Best_Valid: 80.548% Best_Test: 81.768% 
+The Used Encoder: GraphConv 
+Best_Train: 83.851%, Best_Valid: 80.712% Best_Test: 81.775% 
+The Used Encoder: ResGatedGraphConv 
+Best_Train: 82.007%, Best_Valid: 80.257% Best_Test: 81.675% 
+The Used Encoder: TransformerConv 
+Best_Train: 82.449%, Best_Valid: 80.440% Best_Test: 81.795% 
+The Used Encoder: TAGConv 
+Best_Train: 82.652%, Best_Valid: 80.620% Best_Test: 82.015% 
+The Used Encoder: ARMAConv 
+Best_Train: 83.224%, Best_Valid: 80.499% Best_Test: 81.690% 
+The Used Encoder: SGConv 
+Best_Train: 83.400%, Best_Valid: 80.633% Best_Test: 81.944% 
+The Used Encoder: GENConv 
+Best_Train: 82.819%, Best_Valid: 80.481% Best_Test: 81.891% 
+The Used Encoder: ClusterGCNConv 
+Best_Train: 83.341%, Best_Valid: 80.790% Best_Test: 82.094% 
+The Used Encoder: SuperGATConv 
+Best_Train: 83.410%, Best_Valid: 80.673% Best_Test: 81.949% 
+The Used Encoder: GeneralConv 
+Best_Train: 84.566%, Best_Valid: 79.531% Best_Test: 80.992% 
+The Used Encoder: FiLMConv 
+Best_Train: 82.700%, Best_Valid: 80.678% Best_Test: 81.857% 
+The Used Encoder: GATConv 
+Best_Train: 82.757%, Best_Valid: 80.776% Best_Test: 82.093% 
+The Used Encoder: GATv2Conv 
+Best_Train: 83.142%, Best_Valid: 80.608% Best_Test: 81.737% 
+The Used Encoder: GCNConv 
+Best_Train: 82.579%, Best_Valid: 80.590% Best_Test: 81.933% 

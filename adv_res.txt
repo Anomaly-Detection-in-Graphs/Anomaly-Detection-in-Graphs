@@ -1,0 +1,20 @@
+lam = 0, alpha = 2 cos sim
+Best_Train: 83.130%, Best_Valid: 81.053% Best_Test: 82.168% 
+lam = 0.0003, alpha = 1.5 cos sim
+Best_Train: 82.947%, Best_Valid: 80.941% Best_Test: 82.044% 
+lam = 0.0003, alpha = 1.5 epoch: 120 cos sim
+Best_Train: 83.147%, Best_Valid: 81.043% Best_Test: 82.138% 
+lam = 0.0003, alpha = 1.5 epoch: 150 cos sim
+Best_Train: 83.233%, Best_Valid: 81.086% Best_Test: 82.167% 
+lam = 0.03, alpha = 1.8 epoch: 150 kl div
+Best_Train: 83.214%, Best_Valid: 81.088% Best_Test: 82.079% 
+lam = 0.03, alpha = 1.5 epoch: 150 kl div
+Best_Train: 83.331%, Best_Valid: 81.033% Best_Test: 82.102% 
+lam = 0.03, alpha = 1.2 epoch: 150 kl div
+Best_Train: 83.015%, Best_Valid: 80.936% Best_Test: 82.184% 
+lam = 0.03, alpha = 1.2 epoch: 150 cosine div
+Best_Train: 83.048%, Best_Valid: 80.888% Best_Test: 81.945% 
+lam = 0.0003, alpha = 1.2 epoch: 150 cosine div
+Best_Train: 83.222%, Best_Valid: 81.114% Best_Test: 82.100% 
+lam = 0.3, alpha = 1.2 epoch: 150 kl div
+
