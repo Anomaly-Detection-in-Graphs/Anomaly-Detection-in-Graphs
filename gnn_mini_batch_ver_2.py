@@ -530,8 +530,8 @@ def gnn_test_sampler(model, data, eval_train_loader, eval_loader, test_loader, s
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--dataset', type=str, default='PubMed')
-    # parser.add_argument('--dataset', type=str, default='DGraphFin')
+    # parser.add_argument('--dataset', type=str, default='PubMed')
+    parser.add_argument('--dataset', type=str, default='DGraphFin')
     parser.add_argument('--gpu_id', type=int, default=0)
     parser.add_argument('--config', type=str, default='config.yaml')
     args = parser.parse_args()
