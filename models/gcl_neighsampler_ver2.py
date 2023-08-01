@@ -100,18 +100,18 @@ class Encoder(torch.nn.Module):
 
 class Model(torch.nn.Module):
     def __init__(self, encoder: Encoder, num_hidden: int, num_proj_hidden: int,
-                 tau: float = 0.5, sim_filter_threshold = None,  end_sim_filter_threshold = None, sim_dec_rate=None):
+                 tau: float = 0.5, sim_filter_threshold = None):
         super(Model, self).__init__()
         self.encoder: Encoder = encoder
         self.tau: float = tau
 
         self.fc1 = torch.nn.Linear(num_hidden, num_proj_hidden)
         self.fc2 = torch.nn.Linear(num_proj_hidden, num_hidden)
-        self.sim_filter_threshold = sim_filter_threshold
+        self.sim_filter_threshold = sim_filter_threshold/1
         self.start_epoch = 20
-        self.dec_rate = sim_dec_rate # 0.001
-        self.con_value = end_sim_filter_threshold # sim_filter_threshold/2
-        # print(self.sim_filter_threshold, self.dec_rate, self.con_value)
+        self.dec_rate = 0.001
+        self.con_value = sim_filter_threshold/2
+        print(self.sim_filter_threshold, self.dec_rate, self.con_value)
         
     def forward(self, x: torch.Tensor,
                 edge_index: torch.Tensor) -> torch.Tensor:
@@ -157,20 +157,29 @@ class Model(torch.nn.Module):
             threshold = (self.sim_filter_threshold-self.con_value) *decline_ratio + self.con_value
         else:
             threshold = self.sim_filter_threshold
-
+        the_minimum = torch.tensor([1e-15]*num_batches).to(device)
         for i in range(num_batches):
             mask = indices[i * batch_size:(i + 1) * batch_size]
+            
+            
             s_ik = self.sim(z1[mask], z2)
             if s_ik.mean() > threshold:
                 # print(s_ik.mean())
                 
-                refl_sim = f(self.sim(z1[mask], z1))  # [B, N]
+                s_ik_ = self.sim(z1[mask], z1)
+                refl_sim = f(s_ik_)  # [B, N]
                 between_sim = f(s_ik)  # [B, N]
 
                 losses.append(-torch.log(
-                    between_sim[:, i * batch_size:(i + 1) * batch_size].diag()
-                    / (refl_sim.sum(1) + between_sim.sum(1)
-                       - refl_sim[:, i * batch_size:(i + 1) * batch_size].diag())))
+                    (between_sim[:, i * batch_size:(i + 1) * batch_size].diag())
+                    / torch.maximum((refl_sim.sum(1) + between_sim.sum(1)
+                       - refl_sim[:, i * batch_size:(i + 1) * batch_size].diag()), the_minimum)))
+                if torch.isinf(losses[-1]).any():
+                    print(between_sim[:, i * batch_size:(i + 1) * batch_size].diag()[torch.isinf(losses[-1])])
+                    print(refl_sim.sum(1) + between_sim.sum(1)[torch.isinf(losses[-1])])
+                    print(refl_sim[:, i * batch_size:(i + 1) * batch_size].diag()[torch.isinf(losses[-1])])
+                    print((refl_sim.sum(1) + between_sim.sum(1)
+                       - refl_sim[:, i * batch_size:(i + 1) * batch_size].diag()+ 1e-15)[torch.isinf(losses[-1])])
 #         device = z1.device
 #         num_nodes = z1.size(0)
 #         num_batches = (num_nodes - 1) // batch_size + 1
@@ -201,12 +210,13 @@ class Model(torch.nn.Module):
 
         if batch_size == 0:
             l1 = self.semi_loss(h1, h2)
-            l2 = self.semi_loss(h2, h1)
+            # l2 = self.semi_loss(h2, h1)
         else:
             l1 = self.batched_semi_loss(h1, h2, batch_size, cur_epoch)
-            l2 = self.batched_semi_loss(h2, h1, batch_size, cur_epoch)
+            # l2 = self.batched_semi_loss(h2, h1, batch_size, cur_epoch)
 
-        ret = (l1 + l2) * 0.5
+        # ret = (l1 + l2) * 0.5
+        ret = l1
         ret = ret.mean() if mean else ret.sum()
 
         return ret
@@ -221,3 +231,5 @@ def drop_feature(x, drop_prob):
     x[:, drop_mask] = 0
 
     return x
+
+
