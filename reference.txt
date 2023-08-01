@@ -1,0 +1,5 @@
+## Reference
+[1] The implementation of graph contrastive learning has been built based on torch implementation of Deep Graph Contrastive Representation Learning (GRACE).
+The source code avilable at: https://github.com/CRIPAC-DIG/GRACE. 
+
+[2] The pipeline for loading the dataset is built based on the source code provided by DGraphfin, available at: https://github.com/DGraphXinye/DGraphFin_baseline
