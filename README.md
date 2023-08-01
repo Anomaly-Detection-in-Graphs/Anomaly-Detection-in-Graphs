@@ -20,7 +20,7 @@
 
 - GPU: Tesla V100 32G
 
-## Demo on Training and Evalation:  
+## Demo on Training and Evaluation:  
 ```bash
 python GCL_processed_mini_batch_ver_2.py
 ```
