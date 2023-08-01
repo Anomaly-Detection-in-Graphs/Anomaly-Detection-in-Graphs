@@ -18,4 +18,12 @@
 - torch_sparse==0.6.13
 - tqdm==4.61.2
 
-- GPU: Tesla V100 32G  
+- GPU: Tesla V100 32G
+
+## Demo on Training and Evalation:  
+```bash
+python GCL_processed_mini_batch_ver_2.py
+```
+
+## Fraud Detection AUC
+The best test AUC is 82.309 with resgatedgraphconvolution, feature engineering, GCL and mini-batch sampling.
